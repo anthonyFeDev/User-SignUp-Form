@@ -8,6 +8,10 @@
         <!-- Compiled and minified CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
         
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+        </script> 
     </head>
 
     <body>
@@ -33,7 +37,28 @@
                                 </div>
                                 <div class="input-field col s6">
                                     <label for="phone_number" class="active">Phone Number</label>
-                                    <input type="text" id="phone_number" class="validate" placeholder="XXX-XXX-XXXX">
+                                    <input type="tel" id="phone_number" class="validate" placeholder="XXX-XXX-XXXX">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="input-field col s12">
+                                    <label for="bio_text_area">About You</label>
+                                    <textarea for="bio_text_area" class="materialize-textarea"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="input-field col s12">
+                                    <select>
+                                        <option value="" disabled selected>Choose your option</option>
+                                        <option value="1">Option 1</option>
+                                        <option value="2">Option 2</option>
+                                        <option value="3">Option 3</option>
+                                    </select>
+                                    <label>Materialize Select</label>
                                 </div>
                             </div>
                         </div>
@@ -41,5 +66,6 @@
                 </div>
             </div>
         </div>
+        <script src="SignUpForm.js"></script>
     </body>
 </html>
