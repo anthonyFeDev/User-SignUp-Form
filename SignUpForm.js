@@ -4,19 +4,12 @@
 
 let newUser = {};
 
-function storeNewUser(){
-    //
+newUser.name = "Anthony";
 
-    //Name
-    let firstName = document.getElementById("#first_name");
-    let lastName = document.getElementById("#last_name ");
+newUser.email = "safsdafasd@gmial.com";
+newUser.complete = "";
+console.log(newUser.name);
 
-    newUser.name = firstName + " " + lastName;
-
-    //Email
-    newUser.email = document.getElementById("#email");
-
-    //Phone Number
-    newUser.phoneNumber = document.getElementById("#phone_number");
-
+function NewUser(){
+    this.name = 
 }
