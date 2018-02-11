@@ -1,8 +1,8 @@
 {
     "version": "0.1.0",
-    "command": "chrome",    
+    "command": "Chrome",    
     "windows": {
-        "command": "chrome.exe"
+        "command": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe"
     },
-    "args": ["test.html"]
+    "args": ["SignUpForm.html"]
 }
