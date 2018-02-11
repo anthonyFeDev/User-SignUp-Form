@@ -1,15 +1,9 @@
 
-  
-//Create an Object that will store a users info
 
-let newUser = {};
+const firstNameIsEmpty = () => {
+    let firstName = document.getElementById(first_name);
 
-newUser.name = "Anthony";
-
-newUser.email = "safsdafasd@gmial.com";
-newUser.complete = "";
-console.log(newUser.name);
-
-function NewUser(){
-    this.name = 
+    if (firstName == "") {
+        alert("Please enter your name.");
+    }
 }
